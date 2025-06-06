@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: rgb(185, 49, 49);
+}
+.animation-box{
+    width: 75%;
+    height: 27.5rem;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+.first-text{
+    font-size: 4.0rem;
+    color: rgb(255, 255, 255);
+    position: absolute;
+    left: 2.5rem;
+    top: 5rem;
+    opacity: 0;
+    animation-name: parthkrishna1;
+    animation-duration: 5s;
+}
+.second-text{
+    font-size: 3.0rem;
+    color: white;
+    position: absolute;
+    top: 8rem;
+    opacity: 0;
+    animation-name: parthkrishna2;
+    animation-duration: 5s;
+    animation-delay: 5s;
+}
+.third-text{
+    font-size: 2.0rem;
+    color: white;
+    position: absolute;
+    left: 45%;
+    top: 45%;
+    opacity: 0;
+    animation-name: parthkrishna3;
+    animation-duration: 5s;
+    animation-delay: 1ss;
+    transform: rotate(-90deg);
+    white-space: nowrap;
+}
+.fourth-text{
+    font-size: 3.0rem;
+    color: white;
+    position: absolute;
+    left:10%;
+    top: 10rem;
+    opacity: 0;
+    animation-name: parthkrishna4;
+    animation-duration: 7s;
+    animation-delay: 20s;
+}
+.fifth-text{
+    font-size: 3.5rem;
+    color: white;
+    position: absolute;
+    left: 5%;
+    bottom: 25%;
+    opacity: 0;
+    animation-name: parthkrishna5;
+    animation-duration: 8s;
+    animation-delay: 12s;
+}
+@keyframes parthkrishna1 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+    75% {
+        top: 25%;
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+@keyframes parthkrishna2 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+    75% {
+        top: 25%;
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+@keyframes parthkrishna3 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+    75% {
+        top: 25%;
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+@keyframes parthkrishna4 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+    75% {
+        top: 25%;
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
+@keyframes parthkrishna5 {
+    0% {
+        top: -3rem;
+        opacity: 0;
+    }
+    75% {
+        top: 25%;
+        opacity: 1;
+    } 100% {
+        opacity: 0;
+    }
+}
